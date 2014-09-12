@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+    <include layout="@layout/selft_title_bar"/>
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="40.0dip"
+        android:orientation="vertical" >
+         
+         
+         <RelativeLayout
+                android:id="@id/panel_card_num"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/public_line_top" >
+
+                <TextView
+                    android:id="@id/tv_card_num"
+                    style="@style/place_data_coll_tv_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="@string/scan_card_num" />
+
+                <EditText
+                    android:id="@id/et_card_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_card_num"
+                    style="@style/place_data_coll_et_client_style"
+                    android:hint="@string/scan_hint_tx"
+                    android:inputType="number"
+                    android:maxLength="16"
+                    />
+            </RelativeLayout>
+            
+         	<RelativeLayout
+                android:id="@+id/panel_start_date"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:background="@drawable/public_line_mid" >
+
+                <TextView
+                    android:id="@+id/tv_start_date"
+                    style="@style/place_data_coll_tv_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="@string/start_time" />
+
+                <EditText
+                    android:id="@+id/et_start_date"
+                    style="@style/place_data_coll_et_client_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_start_date"
+                    android:hint="@string/select_start_time"
+                     android:focusable="false"
+                    />
+            </RelativeLayout>
+            
+         	<RelativeLayout
+                android:id="@+id/panel_end_date"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:background="@drawable/public_line_bottom" >
+
+                <TextView
+                    android:id="@+id/tv_end_date"
+                    style="@style/place_data_coll_tv_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:text="@string/end_time" />
+
+                <EditText
+                    android:id="@+id/et_end_date"
+                    style="@style/place_data_coll_et_client_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/tv_end_date"
+                    android:hint="@string/select_end_time"
+                    android:focusable="false"
+                    />
+            </RelativeLayout>
+         
+         
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@id/btn_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_selector"
+            android:text="@string/scan_title"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@id/btn_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn_selector"
+            android:text="@string/scan_do_query"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel_query_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="20.0dip"
+        android:gravity="center|right" 
+        android:padding="2.0dip"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/your_remain"
+            android:textColor="@color/login_edittext_title"
+            android:textSize="20.0sp" 
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            />
+
+        <TextView
+            android:id="@id/tv_remain_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv1"
+            android:singleLine="true"
+            android:text="@string/money_set"
+            android:textColor="@color/money_color"
+            android:textSize="20.0sp"
+            android:textStyle="bold" 
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_remain_money"
+            android:singleLine="true"
+            android:text="@string/money_unit"
+            android:textColor="@color/login_edittext_title"
+            android:textSize="20.0sp" 
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50.0dip"
+    android:orientation="vertical" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/title_bg" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="80.0dip"
+            android:layout_height="50.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/login_btn_selector"
+            android:text="@string/str_back"
+            android:visibility="gone"
+             android:textColor="@color/white"
+            android:textSize="18.0sp"
+             >
+        </Button>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="日历"
+            android:textColor="@color/white"
+            android:textSize="20.0sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="80.0dip"
+            android:layout_height="50.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/login_btn_selector"
+            android:text="确定"
+            android:visibility="gone"
+             android:textColor="@color/white"
+            android:textSize="18.0sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

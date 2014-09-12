@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_menu">
+         <item>交易</item>
+         <item>交易撤销</item>
+        <item>查询卡片余额</item>
+        <item>查询交易明细</item>
+        <item>查询汇总信息</item>
+        <item>修改密码</item>
+    </string-array>
+</resources>

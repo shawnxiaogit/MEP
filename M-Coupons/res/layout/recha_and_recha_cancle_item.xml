@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panel_consume_detail"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15.0dip"
+    android:layout_marginRight="15.0dip"
+    android:layout_marginTop="5.0dip"
+    android:layout_marginBottom="5.0dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical" 
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="5.0dip"
+    android:paddingBottom="5.0dip"
+    android:minHeight="60dp"
+    >
+    
+   <RelativeLayout
+        android:id="@+id/panel_cust_num"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_top" >
+
+        <TextView
+            android:id="@+id/tv_cust_num"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/txt_cust_num" />
+
+        <TextView
+            android:id="@+id/tv_cust_num_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_cust_num"
+            android:focusable="false" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/panel_cust_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_cust_name"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/txt_cust_name" />
+
+        <TextView
+            android:id="@+id/tv_cust_name_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_cust_name"
+            android:focusable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel_time"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/consume_time" />
+
+        <TextView
+            android:id="@+id/tv_time_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_time"
+            android:focusable="false" />
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/panel_type"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/operater_type" />
+
+        <TextView
+            android:id="@+id/tv_type_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_type" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/panel_money"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_bottom" >
+
+        <TextView
+            android:id="@+id/tv_money"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/sum_of_operater" />
+
+        <TextView
+            android:id="@+id/tv_money_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_money"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</LinearLayout>

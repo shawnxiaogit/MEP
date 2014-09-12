@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <Button
+        android:id="@id/menu_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn_selector"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" 
+        android:layout_margin="3.0dip"
+        android:focusable="false"
+        />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="return_code">
+        <item>00</item>
+        <item>E6</item>
+    </string-array>
+</resources>

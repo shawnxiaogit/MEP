@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/selft_title_bar" />
+	<!-- 
+    <Button
+        android:id="@+id/btn_modi_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/login_btn_selector"
+        android:text="@string/modi_pwd"
+        android:textColor="#ffffffff"
+        android:textSize="18.0sp" 
+        android:gravity="center"
+        />
+ -->
+
+    <LinearLayout
+        android:id="@+id/ll_pos_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@id/panel_card_num"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/public_line_top" >
+
+            <TextView
+                android:id="@id/tv_card_num"
+                style="@style/place_data_coll_tv_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/term_num" />
+
+            <TextView
+                android:id="@+id/tv_term_num"
+                style="@style/place_data_coll_et_client_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toRightOf="@id/tv_card_num"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/panel_select_date"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:background="@drawable/public_line_bottom" >
+
+            <TextView
+                android:id="@id/tv_select_date"
+                style="@style/place_data_coll_tv_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/comm_num" />
+
+            <TextView 
+                android:id="@+id/tv_comm_num"
+                style="@style/place_data_coll_et_client_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toRightOf="@id/tv_select_date"
+                 />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

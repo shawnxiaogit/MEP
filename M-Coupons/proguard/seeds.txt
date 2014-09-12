@@ -1,0 +1,733 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.ajrd.SafeSoft
+com.ajrd.SafeSoft: byte[] GenerateMac(byte[],int,byte[])
+com.ajrd.SafeSoft: byte[] EncryptPin(byte[],byte[],byte[])
+com.ajrd.SafeSoft: byte[] Byte2Hex(byte[],int)
+com.ajrd.SafeSoft: byte[] Hex2Byte(byte[],int)
+com.ajrd.SafeSoft: byte[] Des(byte[],byte[],int)
+com.ajrd.SafeSoft: byte[] EncryptTlr(byte[])
+com.ajrd.SafeSoft: byte[] EncryptMsg(byte[],int)
+com.ajrd.SafeSoft: byte[] DecryptMsg(byte[],int)
+com.coco.android.BaseActivity: BaseActivity()
+com.coco.android.MyApplication
+com.coco.android.MyApplication: MyApplication()
+com.coco.android.R$anim: int alpha
+com.coco.android.R$anim: int dialog_enter
+com.coco.android.R$anim: int dialog_exit
+com.coco.android.R$anim: int push_left_in
+com.coco.android.R$anim: int push_left_out
+com.coco.android.R$anim: int push_right_in
+com.coco.android.R$anim: int push_right_out
+com.coco.android.R$anim: int push_top_in
+com.coco.android.R$anim: int push_top_out
+com.coco.android.R$anim: int slide_left_in
+com.coco.android.R$anim: int slide_left_out
+com.coco.android.R$anim: int slide_right_in
+com.coco.android.R$anim: int slide_right_out
+com.coco.android.R$anim: int tv_off
+com.coco.android.R$array: int main_menu
+com.coco.android.R$array: int return_code
+com.coco.android.R$color: int Noteback
+com.coco.android.R$color: int Text
+com.coco.android.R$color: int ToDayText
+com.coco.android.R$color: int black
+com.coco.android.R$color: int black_color
+com.coco.android.R$color: int br0
+com.coco.android.R$color: int calendar_background
+com.coco.android.R$color: int calendar_zhe_day
+com.coco.android.R$color: int color_red
+com.coco.android.R$color: int edit_blue
+com.coco.android.R$color: int event_center
+com.coco.android.R$color: int forecast_point
+com.coco.android.R$color: int frame
+com.coco.android.R$color: int login_btn_text_color
+com.coco.android.R$color: int login_checkbox_title
+com.coco.android.R$color: int login_edittext_title
+com.coco.android.R$color: int lottery_detail_color
+com.coco.android.R$color: int lottery_item_white
+com.coco.android.R$color: int lottery_item_yellow
+com.coco.android.R$color: int money_color
+com.coco.android.R$color: int mytransparent
+com.coco.android.R$color: int noMonth
+com.coco.android.R$color: int orange
+com.coco.android.R$color: int phone_recharge_his_dialog_blue
+com.coco.android.R$color: int possible_result_points
+com.coco.android.R$color: int read_message_color
+com.coco.android.R$color: int result_view
+com.coco.android.R$color: int selection
+com.coco.android.R$color: int tempColor
+com.coco.android.R$color: int text_6
+com.coco.android.R$color: int text_7
+com.coco.android.R$color: int title_text_6
+com.coco.android.R$color: int title_text_7
+com.coco.android.R$color: int trac_titel_com_backg
+com.coco.android.R$color: int trac_title_click_backg
+com.coco.android.R$color: int viewfinder_frame
+com.coco.android.R$color: int viewfinder_mask
+com.coco.android.R$color: int weak_dark
+com.coco.android.R$color: int white
+com.coco.android.R$dimen: int dp10
+com.coco.android.R$dimen: int sp14
+com.coco.android.R$dimen: int sp20
+com.coco.android.R$drawable: int add_brith_baocun
+com.coco.android.R$drawable: int bg
+com.coco.android.R$drawable: int btn_left
+com.coco.android.R$drawable: int btn_left_sel
+com.coco.android.R$drawable: int btn_right
+com.coco.android.R$drawable: int btn_right_sel
+com.coco.android.R$drawable: int co_co_logo
+com.coco.android.R$drawable: int content
+com.coco.android.R$drawable: int datepicker_bg
+com.coco.android.R$drawable: int dot
+com.coco.android.R$drawable: int fun_01
+com.coco.android.R$drawable: int fun_02
+com.coco.android.R$drawable: int fun_03
+com.coco.android.R$drawable: int fun_04
+com.coco.android.R$drawable: int fun_05
+com.coco.android.R$drawable: int fun_06
+com.coco.android.R$drawable: int guide_dot_black
+com.coco.android.R$drawable: int guide_dot_white
+com.coco.android.R$drawable: int ic_launcher
+com.coco.android.R$drawable: int icon
+com.coco.android.R$drawable: int inputbox_2
+com.coco.android.R$drawable: int inputbox_3
+com.coco.android.R$drawable: int inputbox_down
+com.coco.android.R$drawable: int l_arrow
+com.coco.android.R$drawable: int l_arrow_sel
+com.coco.android.R$drawable: int left_selector
+com.coco.android.R$drawable: int line_bottom_off
+com.coco.android.R$drawable: int line_bottom_on
+com.coco.android.R$drawable: int line_mid_off
+com.coco.android.R$drawable: int line_mid_on
+com.coco.android.R$drawable: int line_off
+com.coco.android.R$drawable: int line_on
+com.coco.android.R$drawable: int line_top_off
+com.coco.android.R$drawable: int line_top_on
+com.coco.android.R$drawable: int listview_selector
+com.coco.android.R$drawable: int listview_selector_default
+com.coco.android.R$drawable: int login_bg
+com.coco.android.R$drawable: int login_btn_normal
+com.coco.android.R$drawable: int login_btn_pressed
+com.coco.android.R$drawable: int login_btn_selector
+com.coco.android.R$drawable: int login_btn_unselector
+com.coco.android.R$drawable: int login_button_bg
+com.coco.android.R$drawable: int login_checkbox_btn
+com.coco.android.R$drawable: int login_checkbox_checked
+com.coco.android.R$drawable: int login_checkbox_unchecked
+com.coco.android.R$drawable: int login_editbox_pressed
+com.coco.android.R$drawable: int login_editbox_selector
+com.coco.android.R$drawable: int login_second_btn_blue_normal
+com.coco.android.R$drawable: int login_second_btn_blue_pressed
+com.coco.android.R$drawable: int login_second_btn_blue_selector
+com.coco.android.R$drawable: int login_second_btn_normal
+com.coco.android.R$drawable: int login_second_btn_pressed
+com.coco.android.R$drawable: int login_second_btn_selector
+com.coco.android.R$drawable: int login_select_more_bg
+com.coco.android.R$drawable: int login_select_more_bg_pressed
+com.coco.android.R$drawable: int login_select_more_bg_selector
+com.coco.android.R$drawable: int logo
+com.coco.android.R$drawable: int long_btn
+com.coco.android.R$drawable: int long_btn_after
+com.coco.android.R$drawable: int mep_app_icon
+com.coco.android.R$drawable: int orgbtn
+com.coco.android.R$drawable: int paycenter_input
+com.coco.android.R$drawable: int public_line
+com.coco.android.R$drawable: int public_line_bottom
+com.coco.android.R$drawable: int public_line_mid
+com.coco.android.R$drawable: int public_line_top
+com.coco.android.R$drawable: int r_arrow
+com.coco.android.R$drawable: int r_arrow_sel
+com.coco.android.R$drawable: int right_selector
+com.coco.android.R$drawable: int shen_mei_logo
+com.coco.android.R$drawable: int shield_icon
+com.coco.android.R$drawable: int title_bg
+com.coco.android.R$drawable: int today_bg
+com.coco.android.R$drawable: int today_bg_sel
+com.coco.android.R$drawable: int today_selector
+com.coco.android.R$drawable: int week_bg
+com.coco.android.R$drawable: int wheel_bg
+com.coco.android.R$drawable: int wheel_val
+com.coco.android.R$drawable: int whtbtn
+com.coco.android.R$drawable: int xlistview_arrow
+com.coco.android.R$id: int auto_focus
+com.coco.android.R$id: int btn_back
+com.coco.android.R$id: int btn_cancle
+com.coco.android.R$id: int btn_consume_sure
+com.coco.android.R$id: int btn_cust_info_sure
+com.coco.android.R$id: int btn_datetime_sure
+com.coco.android.R$id: int btn_get_code
+com.coco.android.R$id: int btn_get_syntax_code
+com.coco.android.R$id: int btn_modi_pwd
+com.coco.android.R$id: int btn_query
+com.coco.android.R$id: int btn_register
+com.coco.android.R$id: int btn_scan
+com.coco.android.R$id: int btn_sure
+com.coco.android.R$id: int button_tiaoguo
+com.coco.android.R$id: int calendar_main
+com.coco.android.R$id: int datepicker
+com.coco.android.R$id: int day
+com.coco.android.R$id: int day_message
+com.coco.android.R$id: int decode
+com.coco.android.R$id: int decode_failed
+com.coco.android.R$id: int decode_succeeded
+com.coco.android.R$id: int encode_failed
+com.coco.android.R$id: int encode_succeeded
+com.coco.android.R$id: int et_again_new_pwd
+com.coco.android.R$id: int et_card_num
+com.coco.android.R$id: int et_card_pwd
+com.coco.android.R$id: int et_consume_card_num
+com.coco.android.R$id: int et_end_date
+com.coco.android.R$id: int et_end_time
+com.coco.android.R$id: int et_old_pwd
+com.coco.android.R$id: int et_phone_num
+com.coco.android.R$id: int et_pwd_new
+com.coco.android.R$id: int et_query_pwd
+com.coco.android.R$id: int et_regi_pwd
+com.coco.android.R$id: int et_select_date
+com.coco.android.R$id: int et_start_date
+com.coco.android.R$id: int et_start_time
+com.coco.android.R$id: int et_sum_of_consume
+com.coco.android.R$id: int et_syntax_code
+com.coco.android.R$id: int hours
+com.coco.android.R$id: int ig_lunar
+com.coco.android.R$id: int ig_solar
+com.coco.android.R$id: int iv
+com.coco.android.R$id: int launch_product_query
+com.coco.android.R$id: int left_img
+com.coco.android.R$id: int ll
+com.coco.android.R$id: int ll_pos_info
+com.coco.android.R$id: int loading_txt
+com.coco.android.R$id: int login_account_edit
+com.coco.android.R$id: int login_btn
+com.coco.android.R$id: int login_history_btn
+com.coco.android.R$id: int login_password_edit
+com.coco.android.R$id: int login_rem_account_chkbox
+com.coco.android.R$id: int login_rem_password_chkbox
+com.coco.android.R$id: int login_scrollview_first_page
+com.coco.android.R$id: int login_scrollview_secondpass_page
+com.coco.android.R$id: int login_scrollview_verifycode_page
+com.coco.android.R$id: int login_second_cancel_btn
+com.coco.android.R$id: int login_second_ok_btn
+com.coco.android.R$id: int login_second_pass
+com.coco.android.R$id: int login_verify_cancel_btn
+com.coco.android.R$id: int login_verify_change_image_btn
+com.coco.android.R$id: int login_verify_edit
+com.coco.android.R$id: int login_verify_hint_txt
+com.coco.android.R$id: int login_verify_image
+com.coco.android.R$id: int login_verify_ok_btn
+com.coco.android.R$id: int lv_consume
+com.coco.android.R$id: int lv_menus
+com.coco.android.R$id: int lv_rechar_data
+com.coco.android.R$id: int main_layout
+com.coco.android.R$id: int menu_btn
+com.coco.android.R$id: int message_layout
+com.coco.android.R$id: int min
+com.coco.android.R$id: int month
+com.coco.android.R$id: int pane_sure
+com.coco.android.R$id: int panel_cancle_cb
+com.coco.android.R$id: int panel_card_num
+com.coco.android.R$id: int panel_card_pwd
+com.coco.android.R$id: int panel_consume_detail
+com.coco.android.R$id: int panel_cust_name
+com.coco.android.R$id: int panel_cust_num
+com.coco.android.R$id: int panel_cust_phone_num
+com.coco.android.R$id: int panel_cust_yuer
+com.coco.android.R$id: int panel_deal_cust_name
+com.coco.android.R$id: int panel_deal_date
+com.coco.android.R$id: int panel_deal_num
+com.coco.android.R$id: int panel_deal_time
+com.coco.android.R$id: int panel_end_date
+com.coco.android.R$id: int panel_end_time
+com.coco.android.R$id: int panel_money
+com.coco.android.R$id: int panel_query_result
+com.coco.android.R$id: int panel_select_date
+com.coco.android.R$id: int panel_start_date
+com.coco.android.R$id: int panel_start_time
+com.coco.android.R$id: int panel_sum_of_consume
+com.coco.android.R$id: int panel_syntax_code
+com.coco.android.R$id: int panel_time
+com.coco.android.R$id: int panel_type
+com.coco.android.R$id: int preview_view
+com.coco.android.R$id: int quit
+com.coco.android.R$id: int regi_btn
+com.coco.android.R$id: int restart_preview
+com.coco.android.R$id: int return_scan_result
+com.coco.android.R$id: int right_img
+com.coco.android.R$id: int search_book_contents_failed
+com.coco.android.R$id: int search_book_contents_succeeded
+com.coco.android.R$id: int title_layout
+com.coco.android.R$id: int today_btn
+com.coco.android.R$id: int today_message
+com.coco.android.R$id: int tv1
+com.coco.android.R$id: int tv3
+com.coco.android.R$id: int tv_card_num
+com.coco.android.R$id: int tv_card_num_value
+com.coco.android.R$id: int tv_card_pwd
+com.coco.android.R$id: int tv_comm_num
+com.coco.android.R$id: int tv_cust_name
+com.coco.android.R$id: int tv_cust_name_value
+com.coco.android.R$id: int tv_cust_num
+com.coco.android.R$id: int tv_cust_num_value
+com.coco.android.R$id: int tv_cust_phone_num
+com.coco.android.R$id: int tv_cust_phone_num_value
+com.coco.android.R$id: int tv_cust_yuer
+com.coco.android.R$id: int tv_cust_yuer_value
+com.coco.android.R$id: int tv_deal_cust_name
+com.coco.android.R$id: int tv_deal_cust_name_value
+com.coco.android.R$id: int tv_deal_cust_num
+com.coco.android.R$id: int tv_deal_cust_num_value
+com.coco.android.R$id: int tv_deal_date
+com.coco.android.R$id: int tv_deal_date_value
+com.coco.android.R$id: int tv_deal_time
+com.coco.android.R$id: int tv_deal_time_value
+com.coco.android.R$id: int tv_end_date
+com.coco.android.R$id: int tv_end_time
+com.coco.android.R$id: int tv_item_name
+com.coco.android.R$id: int tv_mep_account_value
+com.coco.android.R$id: int tv_mep_acount
+com.coco.android.R$id: int tv_money
+com.coco.android.R$id: int tv_money_value
+com.coco.android.R$id: int tv_remain_money
+com.coco.android.R$id: int tv_select_date
+com.coco.android.R$id: int tv_start_date
+com.coco.android.R$id: int tv_start_time
+com.coco.android.R$id: int tv_sum_of_chexiao_count
+com.coco.android.R$id: int tv_sum_of_chexiao_count_value
+com.coco.android.R$id: int tv_sum_of_chexiao_money
+com.coco.android.R$id: int tv_sum_of_chexiao_money_value
+com.coco.android.R$id: int tv_sum_of_consum
+com.coco.android.R$id: int tv_sum_of_consume_value
+com.coco.android.R$id: int tv_sum_of_count
+com.coco.android.R$id: int tv_sum_of_count_value
+com.coco.android.R$id: int tv_sum_of_money
+com.coco.android.R$id: int tv_sum_of_money_value
+com.coco.android.R$id: int tv_sum_of_real_money
+com.coco.android.R$id: int tv_sum_of_real_money_value
+com.coco.android.R$id: int tv_syntax_code
+com.coco.android.R$id: int tv_term_num
+com.coco.android.R$id: int tv_time
+com.coco.android.R$id: int tv_time_value
+com.coco.android.R$id: int tv_title
+com.coco.android.R$id: int tv_total_money
+com.coco.android.R$id: int tv_type
+com.coco.android.R$id: int tv_type_value
+com.coco.android.R$id: int view_pager
+com.coco.android.R$id: int viewfinder_view
+com.coco.android.R$id: int wenxintishi
+com.coco.android.R$id: int xlistview_footer_area
+com.coco.android.R$id: int xlistview_footer_content
+com.coco.android.R$id: int xlistview_footer_hint_textview
+com.coco.android.R$id: int xlistview_footer_progressbar
+com.coco.android.R$id: int xlistview_header_arrow
+com.coco.android.R$id: int xlistview_header_content
+com.coco.android.R$id: int xlistview_header_hint_textview
+com.coco.android.R$id: int xlistview_header_progressbar
+com.coco.android.R$id: int xlistview_header_text
+com.coco.android.R$id: int xlistview_header_time
+com.coco.android.R$id: int year
+com.coco.android.R$interpolator: int accelerate_quint
+com.coco.android.R$layout: int activity_configuration
+com.coco.android.R$layout: int activity_cust_info
+com.coco.android.R$layout: int activity_guide
+com.coco.android.R$layout: int activity_init
+com.coco.android.R$layout: int calendar_main
+com.coco.android.R$layout: int consume
+com.coco.android.R$layout: int consume_cancle
+com.coco.android.R$layout: int consume_data_collect
+com.coco.android.R$layout: int consume_data_collect2
+com.coco.android.R$layout: int consume_item
+com.coco.android.R$layout: int dialog_modify_pwd
+com.coco.android.R$layout: int login
+com.coco.android.R$layout: int main_menu
+com.coco.android.R$layout: int menu_list_item
+com.coco.android.R$layout: int mep_hui_zong_item
+com.coco.android.R$layout: int qr_code_scan
+com.coco.android.R$layout: int query_recharge_date_select
+com.coco.android.R$layout: int query_remain
+com.coco.android.R$layout: int recha_and_recha_cancle_item
+com.coco.android.R$layout: int rechar_and_rechar_cancle_detail
+com.coco.android.R$layout: int selectbirthday
+com.coco.android.R$layout: int selft_title_bar
+com.coco.android.R$layout: int splash
+com.coco.android.R$layout: int xlistview_footer
+com.coco.android.R$layout: int xlistview_header
+com.coco.android.R$raw: int beep
+com.coco.android.R$string: int account
+com.coco.android.R$string: int account2
+com.coco.android.R$string: int account3
+com.coco.android.R$string: int account_or_pwd_not_corr
+com.coco.android.R$string: int app_error
+com.coco.android.R$string: int app_error_message
+com.coco.android.R$string: int app_menu_surelogout
+com.coco.android.R$string: int app_name
+com.coco.android.R$string: int back_againe_to_exit
+com.coco.android.R$string: int bi
+com.coco.android.R$string: int btn_cancel
+com.coco.android.R$string: int btn_reg_txt
+com.coco.android.R$string: int btn_text_sure
+com.coco.android.R$string: int btn_txt_get_systax_code
+com.coco.android.R$string: int btn_yuer
+com.coco.android.R$string: int cancel
+com.coco.android.R$string: int cancle
+com.coco.android.R$string: int cancle_faield
+com.coco.android.R$string: int cancle_success
+com.coco.android.R$string: int card_not_exist_or_opend
+com.coco.android.R$string: int card_num_can_not_null
+com.coco.android.R$string: int card_num_error
+com.coco.android.R$string: int comm_num
+com.coco.android.R$string: int confi_info
+com.coco.android.R$string: int confi_name
+com.coco.android.R$string: int consume_cancle_faield
+com.coco.android.R$string: int consume_cancle_money
+com.coco.android.R$string: int consume_card_num
+com.coco.android.R$string: int consume_card_num_can_not_null
+com.coco.android.R$string: int consume_faield
+com.coco.android.R$string: int consume_money
+com.coco.android.R$string: int consume_of_sum_can_not_large_than_remain
+com.coco.android.R$string: int consume_of_sume_can_not_zero
+com.coco.android.R$string: int consume_phone_num
+com.coco.android.R$string: int consume_processing
+com.coco.android.R$string: int consume_pwd
+com.coco.android.R$string: int consume_pwd_can_not_null
+com.coco.android.R$string: int consume_success
+com.coco.android.R$string: int consume_sure
+com.coco.android.R$string: int consume_time
+com.coco.android.R$string: int cust_info_data_title
+com.coco.android.R$string: int cust_info_name
+com.coco.android.R$string: int cust_info_tv_cust_num
+com.coco.android.R$string: int cust_info_yuer
+com.coco.android.R$string: int cust_phone_num
+com.coco.android.R$string: int deal_cust_name
+com.coco.android.R$string: int deal_cust_num
+com.coco.android.R$string: int deal_date
+com.coco.android.R$string: int deal_time
+com.coco.android.R$string: int dia_btn_canc_txt
+com.coco.android.R$string: int dia_btn_sure_txt
+com.coco.android.R$string: int dynamic_code
+com.coco.android.R$string: int dynamic_code_can_not_null
+com.coco.android.R$string: int dynamic_code_error
+com.coco.android.R$string: int end_date
+com.coco.android.R$string: int end_date_can_not_null
+com.coco.android.R$string: int end_time
+com.coco.android.R$string: int end_time_can_not_null
+com.coco.android.R$string: int end_time_can_not_small_than_start_time
+com.coco.android.R$string: int et_select_date_hint
+com.coco.android.R$string: int get_data_faield
+com.coco.android.R$string: int get_dynamic_code
+com.coco.android.R$string: int get_synt_code_faield
+com.coco.android.R$string: int get_synt_code_succ
+com.coco.android.R$string: int get_synt_code_succ2
+com.coco.android.R$string: int get_syta_code
+com.coco.android.R$string: int get_syta_code2
+com.coco.android.R$string: int getting_dynamic_code
+com.coco.android.R$string: int give_up
+com.coco.android.R$string: int handing_process
+com.coco.android.R$string: int help_txt
+com.coco.android.R$string: int hint2_verifycode
+com.coco.android.R$string: int hint_account_edit
+com.coco.android.R$string: int hint_account_edit2
+com.coco.android.R$string: int hint_account_edit3
+com.coco.android.R$string: int hint_passwd_edit
+com.coco.android.R$string: int hint_verifycode
+com.coco.android.R$string: int httpError
+com.coco.android.R$string: int init_code
+com.coco.android.R$string: int init_faield
+com.coco.android.R$string: int init_success
+com.coco.android.R$string: int input_consume_phone_num
+com.coco.android.R$string: int input_consume_pwd
+com.coco.android.R$string: int input_dynamic_code
+com.coco.android.R$string: int input_num
+com.coco.android.R$string: int input_phone_num
+com.coco.android.R$string: int input_reg_pwd_hint
+com.coco.android.R$string: int input_sum_of_consu
+com.coco.android.R$string: int is_exit_app
+com.coco.android.R$string: int item_card_num
+com.coco.android.R$string: int limit_time
+com.coco.android.R$string: int login
+com.coco.android.R$string: int login_faield
+com.coco.android.R$string: int login_hint
+com.coco.android.R$string: int login_success
+com.coco.android.R$string: int loging
+com.coco.android.R$string: int mep_account
+com.coco.android.R$string: int modi_pwd
+com.coco.android.R$string: int modi_pwd_hint1
+com.coco.android.R$string: int modi_pwd_hint2
+com.coco.android.R$string: int modi_pwd_hint3
+com.coco.android.R$string: int modify_login_pwd_faield
+com.coco.android.R$string: int modify_login_pwd_success
+com.coco.android.R$string: int modify_pwd_success
+com.coco.android.R$string: int money_set
+com.coco.android.R$string: int money_unit
+com.coco.android.R$string: int new_pwd_not_null
+com.coco.android.R$string: int new_pwd_sure_not_null
+com.coco.android.R$string: int no_available_net_work
+com.coco.android.R$string: int no_data
+com.coco.android.R$string: int no_more_data
+com.coco.android.R$string: int no_select_date
+com.coco.android.R$string: int ok
+com.coco.android.R$string: int old_pwd_incorr
+com.coco.android.R$string: int old_pwd_not_null
+com.coco.android.R$string: int oper_num
+com.coco.android.R$string: int operater_type
+com.coco.android.R$string: int passwd
+com.coco.android.R$string: int passwd2
+com.coco.android.R$string: int phone_num
+com.coco.android.R$string: int phone_num_can_not_null
+com.coco.android.R$string: int please_login_again
+com.coco.android.R$string: int pwd_alarm1
+com.coco.android.R$string: int pwd_alarm2
+com.coco.android.R$string: int pwd_alarm3
+com.coco.android.R$string: int pwd_alarm4
+com.coco.android.R$string: int pwd_alarm5
+com.coco.android.R$string: int pwd_can_not_null
+com.coco.android.R$string: int pwd_incorr
+com.coco.android.R$string: int pwd_incorrect
+com.coco.android.R$string: int pwd_not_the_same
+com.coco.android.R$string: int query_faield
+com.coco.android.R$string: int query_process
+com.coco.android.R$string: int query_pwd
+com.coco.android.R$string: int query_pwd_can_not_null
+com.coco.android.R$string: int query_remain_faield
+com.coco.android.R$string: int real_deal_money
+com.coco.android.R$string: int regi
+com.coco.android.R$string: int register_pwd
+com.coco.android.R$string: int register_pwd2
+com.coco.android.R$string: int registing
+com.coco.android.R$string: int rem_account
+com.coco.android.R$string: int rem_password
+com.coco.android.R$string: int replace_verify_code
+com.coco.android.R$string: int scan_card_num
+com.coco.android.R$string: int scan_do_query
+com.coco.android.R$string: int scan_hint_tx
+com.coco.android.R$string: int scan_input_pwd
+com.coco.android.R$string: int scan_retry
+com.coco.android.R$string: int scan_tip
+com.coco.android.R$string: int scan_title
+com.coco.android.R$string: int secondLogin
+com.coco.android.R$string: int second_passwd
+com.coco.android.R$string: int select_end_date
+com.coco.android.R$string: int select_end_time
+com.coco.android.R$string: int select_start_date
+com.coco.android.R$string: int select_start_time
+com.coco.android.R$string: int start_date
+com.coco.android.R$string: int start_date_can_not_null
+com.coco.android.R$string: int start_time
+com.coco.android.R$string: int start_time_can_not_null
+com.coco.android.R$string: int start_use
+com.coco.android.R$string: int str_back
+com.coco.android.R$string: int submit_report
+com.coco.android.R$string: int sum_of_che_xiao_count
+com.coco.android.R$string: int sum_of_che_xiao_money
+com.coco.android.R$string: int sum_of_consume
+com.coco.android.R$string: int sum_of_consume_can_not_null
+com.coco.android.R$string: int sum_of_count
+com.coco.android.R$string: int sum_of_money
+com.coco.android.R$string: int sum_of_operater
+com.coco.android.R$string: int sure
+com.coco.android.R$string: int sure_to_cancle_the_consume
+com.coco.android.R$string: int switch_coco_ip
+com.coco.android.R$string: int switch_our_ip
+com.coco.android.R$string: int syntax_code_not_null
+com.coco.android.R$string: int term_num
+com.coco.android.R$string: int title_fun_1
+com.coco.android.R$string: int title_fun_2
+com.coco.android.R$string: int title_fun_3
+com.coco.android.R$string: int title_fun_4
+com.coco.android.R$string: int title_fun_5
+com.coco.android.R$string: int title_init
+com.coco.android.R$string: int title_main_menu
+com.coco.android.R$string: int title_modify_pwd
+com.coco.android.R$string: int toast_oper_num_not_null
+com.coco.android.R$string: int toast_phone_num_not_null
+com.coco.android.R$string: int toast_regi_pwd_not_null
+com.coco.android.R$string: int tv_select_date
+com.coco.android.R$string: int tv_select_date2
+com.coco.android.R$string: int txt_cust_name
+com.coco.android.R$string: int txt_cust_num
+com.coco.android.R$string: int txt_get_code
+com.coco.android.R$string: int txt_get_code_again
+com.coco.android.R$string: int u_name_or_pwd_incorr
+com.coco.android.R$string: int user_name_incorr
+com.coco.android.R$string: int username_can_not_null
+com.coco.android.R$string: int username_can_not_null2
+com.coco.android.R$string: int verifycode
+com.coco.android.R$string: int warnming_prompt
+com.coco.android.R$string: int xlistview_footer_hint_normal
+com.coco.android.R$string: int xlistview_footer_hint_ready
+com.coco.android.R$string: int xlistview_header_hint_loading
+com.coco.android.R$string: int xlistview_header_hint_normal
+com.coco.android.R$string: int xlistview_header_hint_ready
+com.coco.android.R$string: int xlistview_header_last_time
+com.coco.android.R$string: int yanzheng_code
+com.coco.android.R$string: int your_remain
+com.coco.android.R$string: int yuan
+com.coco.android.R$style: int AppBaseTheme
+com.coco.android.R$style: int AppTheme
+com.coco.android.R$style: int MyCheckBox
+com.coco.android.R$style: int calendar_dialog_style
+com.coco.android.R$style: int mystyle
+com.coco.android.R$style: int place_data_coll_et_client_style
+com.coco.android.R$style: int place_data_coll_tv_style
+com.coco.android.R$style: int splash_style
+com.coco.android.R$style: int tv_item_name_style
+com.coco.android.ui.CheckInformationActivity
+com.coco.android.ui.CheckInformationActivity: CheckInformationActivity()
+com.coco.android.ui.ConfigurationActivity
+com.coco.android.ui.ConfigurationActivity: ConfigurationActivity()
+com.coco.android.ui.ConsumeActivity
+com.coco.android.ui.ConsumeActivity: ConsumeActivity()
+com.coco.android.ui.ConsumeCancleActivity
+com.coco.android.ui.ConsumeCancleActivity: ConsumeCancleActivity()
+com.coco.android.ui.ConsumeDataCollectActivity2
+com.coco.android.ui.ConsumeDataCollectActivity2: ConsumeDataCollectActivity2()
+com.coco.android.ui.CustInfoActivity
+com.coco.android.ui.CustInfoActivity: CustInfoActivity()
+com.coco.android.ui.GuidActivity
+com.coco.android.ui.GuidActivity: GuidActivity()
+com.coco.android.ui.GuidActivity: void onClick(android.view.View)
+com.coco.android.ui.InitActivity
+com.coco.android.ui.InitActivity: InitActivity()
+com.coco.android.ui.LoginActivity
+com.coco.android.ui.LoginActivity: LoginActivity()
+com.coco.android.ui.LoginActivity: void onClick(android.view.View)
+com.coco.android.ui.MainMenuActivity
+com.coco.android.ui.MainMenuActivity: MainMenuActivity()
+com.coco.android.ui.MepHuiZongActivity
+com.coco.android.ui.MepHuiZongActivity: MepHuiZongActivity()
+com.coco.android.ui.QueryRechargeDateSelectActivity
+com.coco.android.ui.QueryRechargeDateSelectActivity: QueryRechargeDateSelectActivity()
+com.coco.android.ui.QueryRemainActivity
+com.coco.android.ui.QueryRemainActivity: QueryRemainActivity()
+com.coco.android.ui.RecharAndRecharCancleDetailActivity
+com.coco.android.ui.RecharAndRecharCancleDetailActivity: RecharAndRecharCancleDetailActivity()
+com.coco.android.ui.SplashActivity
+com.coco.android.ui.SplashActivity: SplashActivity()
+com.coco.android.wheelview.WheelView
+com.coco.android.wheelview.WheelView: WheelView(android.content.Context,android.util.AttributeSet,int)
+com.coco.android.wheelview.WheelView: WheelView(android.content.Context,android.util.AttributeSet)
+com.coco.android.wheelview.WheelView: WheelView(android.content.Context)
+com.coco.android.wheelview.WheelView: com.coco.android.wheelview.WheelAdapter getAdapter()
+com.coco.android.wheelview.WheelView: void setAdapter(com.coco.android.wheelview.WheelAdapter)
+com.coco.android.wheelview.WheelView: void setInterpolator(android.view.animation.Interpolator)
+com.coco.android.wheelview.WheelView: int getVisibleItems()
+com.coco.android.wheelview.WheelView: void setVisibleItems(int)
+com.coco.android.wheelview.WheelView: java.lang.String getLabel()
+com.coco.android.wheelview.WheelView: void setLabel(java.lang.String)
+com.coco.android.wheelview.WheelView: int getCurrentItem()
+com.coco.android.wheelview.WheelView: void setCurrentItem(int)
+com.coco.android.wheelview.WheelView: void setCyclic(boolean)
+com.coco.android.wheelview.WheelView: int getMaxTextLength()
+com.coco.android.wheelview.WheelView: int getItemHeight()
+com.coco.android.wheelview.WheelView: void setNextMessage(int)
+com.coco.android.xlist.XListView
+com.coco.android.xlist.XListView: XListView(android.content.Context)
+com.coco.android.xlist.XListView: XListView(android.content.Context,android.util.AttributeSet)
+com.coco.android.xlist.XListView: XListView(android.content.Context,android.util.AttributeSet,int)
+com.coco.android.xlist.XListView: void setAdapter(android.widget.ListAdapter)
+com.coco.android.xlist.XListView: void setPullRefreshEnable(boolean)
+com.coco.android.xlist.XListView: void setPullLoadEnable(boolean)
+com.coco.android.xlist.XListView: void setRefreshTime(java.lang.String)
+com.coco.android.xlist.XListView: void setOnScrollListener(android.widget.AbsListView$OnScrollListener)
+com.coco.android.xlist.XListView: void setXListViewListener(com.coco.android.xlist.XListView$IXListViewListener)
+com.coco.android.xlist.XListViewFooter
+com.coco.android.xlist.XListViewFooter: XListViewFooter(android.content.Context,android.util.AttributeSet)
+com.coco.android.xlist.XListViewFooter: void setState(int)
+com.coco.android.xlist.XListViewFooter: void setBottomMargin(int)
+com.coco.android.xlist.XListViewFooter: int getBottomMargin()
+com.coco.android.xlist.XListViewHeader
+com.coco.android.xlist.XListViewHeader: XListViewHeader(android.content.Context,android.util.AttributeSet)
+com.coco.android.xlist.XListViewHeader: void setState(int)
+com.coco.android.xlist.XListViewHeader: void setVisiableHeight(int)
+com.coco.android.xlist.XListViewHeader: int getVisiableHeight()
+com.easier.ui.CalendarActivity
+com.easier.ui.CalendarActivity: CalendarActivity()
+com.google.zxing.CaptureActivity
+com.google.zxing.CaptureActivity: CaptureActivity()
+com.google.zxing.decoding.CaptureActivityHandler$State: com.google.zxing.decoding.CaptureActivityHandler$State[] values()
+com.google.zxing.decoding.CaptureActivityHandler$State: com.google.zxing.decoding.CaptureActivityHandler$State valueOf(java.lang.String)
+com.google.zxing.view.ViewfinderView
+com.google.zxing.view.ViewfinderView: ViewfinderView(android.content.Context,android.util.AttributeSet)

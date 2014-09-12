@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panel_consume_detail"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5.0dip"
+    android:layout_marginLeft="15.0dip"
+    android:layout_marginRight="15.0dip"
+    android:layout_marginTop="5.0dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="5.0dip"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="5.0dip" >
+
+    <!-- MEP账号 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_top" >
+
+        <TextView
+            android:id="@+id/tv_mep_acount"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/mep_account" />
+
+        <TextView
+            android:id="@+id/tv_mep_account_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_mep_acount"
+            android:focusable="false" />
+    </RelativeLayout>
+    <!-- 总交易金额 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_sum_of_money"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/sum_of_money" />
+
+        <TextView
+            android:id="@+id/tv_sum_of_money_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_sum_of_money" />
+    </RelativeLayout>
+
+    <!-- 总交易笔数 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_sum_of_count"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/sum_of_count" />
+
+        <TextView
+            android:id="@+id/tv_sum_of_count_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_sum_of_count"
+            android:focusable="false" />
+    </RelativeLayout>
+    <!-- 总撤销金额 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_sum_of_chexiao_money"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/sum_of_che_xiao_money" />
+
+        <TextView
+            android:id="@+id/tv_sum_of_chexiao_money_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_sum_of_chexiao_money"
+            android:focusable="false" />
+    </RelativeLayout>
+    <!-- 总撤销金额 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_mid" >
+
+        <TextView
+            android:id="@+id/tv_sum_of_chexiao_count"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/sum_of_che_xiao_count" />
+
+        <TextView
+            android:id="@+id/tv_sum_of_chexiao_count_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_sum_of_chexiao_count"
+            android:focusable="false" />
+    </RelativeLayout>
+    <!-- 实际交易金额 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/public_line_bottom" >
+
+        <TextView
+            android:id="@+id/tv_sum_of_real_money"
+            style="@style/place_data_coll_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5.0dip"
+            android:text="@string/real_deal_money" />
+
+        <TextView
+            android:id="@+id/tv_sum_of_real_money_value"
+            style="@style/place_data_coll_et_client_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/tv_sum_of_real_money"
+            android:focusable="false" />
+    </RelativeLayout>
+
+</LinearLayout>

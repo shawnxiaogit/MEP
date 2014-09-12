@@ -1,0 +1,17 @@
+
+com.ajrd	jni使用工具
+com.coco.android    全局应用程序
+com.coco.android.bean  网络请求实体
+com.coco.android.https  网络工具
+com.coco.android.socket	 socket通讯
+com.coco.android.ui	    界面
+com.coco.android.util    基本工具
+com.easier.adapter     日历适配器
+com.easier.ui	       日历界面
+com.google.zxing       二维码界面
+com.google.zxing.camera  二维码处理
+com.google.zxing.decoding  二维码解码
+com.google.zxing.view     二维码界面控件
+
+
+

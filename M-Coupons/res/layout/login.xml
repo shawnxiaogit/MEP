@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+     >
+
+    <ScrollView
+        android:id="@id/login_scrollview_first_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+			
+            <ImageView
+                android:layout_width="150.0dip"
+                android:layout_height="90.0dip"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shen_mei_logo" 
+            	android:visibility="gone"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginTop="40.0dip"
+                android:background="@drawable/login_button_bg"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" >
+
+                    <EditText
+                        android:id="@id/login_account_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/login_editbox_selector"
+                        android:hint="@string/hint_account_edit3"
+                        android:maxLength="64"
+                        android:paddingLeft="75.0dip"
+                        android:paddingRight="40.0dip"
+                        android:singleLine="true"
+                        android:textSize="16.0sp" 
+                        android:inputType="number"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10.0dip"
+                        android:singleLine="true"
+                        android:text="@string/account3"
+                        android:textColor="@color/login_edittext_title"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+					<!-- 
+                    <Button
+                        android:id="@id/login_history_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:layout_marginRight="2.0dip"
+                        android:background="@drawable/login_select_more_bg_selector" />
+                         -->
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" >
+
+                    <EditText
+                        android:id="@id/login_password_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/login_editbox_selector"
+                        android:hint="@string/hint_passwd_edit"
+                        android:inputType="textPassword"
+                        android:paddingLeft="75.0dip"
+                        android:paddingRight="20.0dip"
+                        android:singleLine="true"
+                        android:textSize="16.0sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10.0dip"
+                        android:singleLine="true"
+                        android:text="@string/passwd2"
+                        android:textColor="@color/login_edittext_title"
+                        android:textSize="18.0sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@id/login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_selector"
+                    android:text="@string/login"
+                    android:textColor="#ffffffff"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+            
+            <!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@id/regi_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_btn_selector"
+                    android:text="@string/regi"
+                    android:textColor="#ffffffff"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+             -->
+			<!-- 
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@id/login_rem_account_chkbox"
+                    style="@style/MyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rem_account"
+                    android:textColor="@color/login_checkbox_title"
+                    android:textSize="15.0sp" />
+				
+                <CheckBox
+                    android:id="@id/login_rem_password_chkbox"
+                    style="@style/MyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:text="@string/rem_password"
+                    android:textColor="@color/login_checkbox_title"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+            
+             -->
+			<!-- 
+            <TextView
+                android:id="@id/wenxintishi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/login_hint"
+                android:textColor="@color/weak_dark"
+                android:textSize="12.0sp" />
+              -->   
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@id/login_scrollview_verifycode_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@id/login_verify_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="56.0dip" />
+
+            <TextView
+                android:id="@id/login_verify_hint_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1.0dip"
+                android:text="@string/hint2_verifycode"
+                android:textColor="@color/login_btn_text_color" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@id/login_verify_change_image_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/replace_verify_code"
+                    android:textColor="@color/login_btn_text_color"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40.0dip"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@id/login_verify_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/paycenter_input"
+                    android:hint="@string/hint_verifycode"
+                    android:maxLength="6"
+                    android:paddingLeft="90.0dip"
+                    android:singleLine="true"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/verifycode"
+                    android:textColor="@color/login_edittext_title"
+                    android:textSize="18.0sp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@id/login_verify_ok_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_second_btn_blue_selector"
+                    android:text="@string/ok"
+                    android:textColor="#ffffffff"
+                    android:textSize="18.0sp" />
+
+                <Button
+                    android:id="@id/login_verify_cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:background="@drawable/login_second_btn_selector"
+                    android:text="@string/cancel"
+                    android:textColor="@color/login_btn_text_color"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@id/login_scrollview_secondpass_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="73.0dip"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@id/login_second_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/paycenter_input"
+                    android:hint="@string/secondLogin"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:paddingLeft="120.0dip"
+                    android:singleLine="true"
+                    android:textSize="16.0sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shield_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4.0dip"
+                        android:singleLine="true"
+                        android:text="@string/second_passwd"
+                        android:textColor="@color/login_edittext_title"
+                        android:textSize="16.0sp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@id/login_second_ok_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_second_btn_blue_selector"
+                    android:text="@string/ok"
+                    android:textColor="#ffffffff"
+                    android:textSize="18.0sp" />
+
+                <Button
+                    android:id="@id/login_second_cancel_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:background="@drawable/login_second_btn_selector"
+                    android:text="@string/cancel"
+                    android:textColor="@color/login_btn_text_color"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

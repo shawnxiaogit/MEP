@@ -1,0 +1,244 @@
+<resources>
+
+    <string name="app_name">MEP电子券管理系统</string>
+    <string name="hint_account_edit">请输入账号 </string>
+    <string name="account">账号:</string>
+    <string name="consume_of_sume_can_not_zero">交易金额不能为0</string>
+    <string name="consume_of_sum_can_not_large_than_remain">交易金额不能大于余额</string>
+    <string name="pwd_incorrect">原密码不正确</string>
+    <string name="hint_passwd_edit">请输入密码</string>
+    <string name="passwd">密码:</string>
+    <string name="limit_time">%1$s S</string>
+    <string name="login">登 录</string>
+    <string name="regi">注 册</string>
+    <string name="rem_account">记住账号</string>
+    <string name="rem_password">记住密码</string>
+    <string name="login_hint">"温馨提示:非财付通用户可用QQ账号和密码直接登录激活"</string>
+    <string name="hint2_verifycode">加载图片中 &#8230;</string>
+    <string name="replace_verify_code"><u>看不清，换一张</u></string>
+    <string name="hint_verifycode">请输入图片中的字符</string>
+    <string name="verifycode">验证码:</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="secondLogin">请输入二级登录密码</string>
+    <string name="second_passwd">二级密码:</string>
+    <string name="username_can_not_null">用户名不能为空!</string>
+    <string name="username_can_not_null2">账号不能为空!</string>
+    <string name="pwd_can_not_null">密码不能为空!</string>
+    <string name="loging">登录中，请稍候 &#8230;</string>
+    <string name="init_code">验&#160;&#160;&#160;&#160;证&#160;&#160;&#160;&#160;码:</string>
+    <string name="start_use">开始使用</string>
+    <string name="httpError">连接失败</string>
+    <string name="btn_yuer"></string>
+    <string name="txt_get_code">获取验证码</string>
+    <string name="txt_get_code_again">重新获取</string>
+    <string name="title_init">初始化</string>
+    <!-- 二维码扫描 -->
+    <string name="scan_tip">请将二维码置于取景框内扫描</string>
+    <string name="scan_retry">二维码扫描出错啦,请重新扫描</string>
+    <string name="scan_title">扫一扫</string>
+    <string name="scan_hint_tx">扫一扫获取卡号</string>
+    <string name="scan_input_pwd">请输入卡片密码</string>
+    <string name="scan_card_num">卡&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号:</string>
+    <string name="scan_do_query">查询</string>
+    <string name="your_remain">您的余额为:</string>
+    <string name="money_set">19.00</string>
+    <string name="money_unit">元</string>
+    <string name="card_num_can_not_null">卡号不能为空</string>
+    <string name="card_num_error">卡号有误，请重新输入</string>
+    <string name="query_pwd_can_not_null">查询密码不能为空</string>
+    <string name="query_process">正在查询，请稍候 &#8230;</string>
+    <string name="tv_select_date">日期:</string>
+    <string name="tv_select_date2">日&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;期:</string>
+    <string name="et_select_date_hint">请选择查询日期</string>
+    <string name="no_select_date">您没有选择任何日期</string>
+
+    <!-- 标题头 -->
+    <string name="title_main_menu">主菜单</string>
+    <string name="title_fun_1">查询卡片余额</string>
+    <string name="title_fun_2">查询交易明细</string>
+    <string name="title_fun_3">交易</string>
+    <string name="title_fun_4">交易撤销</string>
+    <string name="title_fun_5">对账信息查询</string>
+    <string name="str_back">返回</string>
+    <string name="back_againe_to_exit">再按一次退出</string>
+
+    <!-- regist -->
+    <string name="oper_num">操作员编号:</string>
+    <string name="input_num">请输入操作员编号</string>
+    <string name="phone_num">手&#160;机&#160;&#160;号&#160;码:</string>
+    <string name="input_phone_num">请输入手机号码</string>
+    <string name="register_pwd">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="register_pwd2">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="input_reg_pwd_hint">请输入验证码</string>
+    <string name="btn_reg_txt">注册</string>
+    <string name="toast_oper_num_not_null">操作员编号不能为空!</string>
+    <string name="toast_phone_num_not_null">手机号码不能为空!</string>
+    <string name="toast_regi_pwd_not_null">密码不能为空!</string>
+    <string name="registing">正在注册，请稍候 &#8230;</string>
+
+    <!-- consume -->
+    <string name="consume_card_num">卡&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号:</string>
+    <string name="sum_of_consume">交易金额:</string>
+    <string name="input_sum_of_consu">请输入交易金额</string>
+    <string name="get_dynamic_code">获取动态码</string>
+    <string name="dynamic_code">动&#160;&#160;态&#160;&#160;码:</string>
+    <string name="input_dynamic_code">请输入动态码</string>
+    <string name="no_data">无信息！</string>
+    <string name="consume_pwd">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="input_consume_pwd">请输入密码</string>
+    <string name="consume_sure">确定</string>
+    <string name="consume_phone_num">手机号码:</string>
+    <string name="input_consume_phone_num">请输入手机号码</string>
+    <string name="phone_num_can_not_null">手机号码不能为空!</string>
+    <string name="consume_card_num_can_not_null">卡号不能为空!</string>
+    <string name="sum_of_consume_can_not_null">交易金额不能为空!</string>
+    <string name="getting_dynamic_code">获取动态验证码中&#8230;</string>
+    <string name="dynamic_code_can_not_null">动态验证码不能为空!</string>
+    <string name="consume_pwd_can_not_null">密码不能为空!</string>
+    <string name="consume_processing">处理中,请稍候&#8230;</string>
+
+    <!-- consume_item -->
+    <string name="consume_time">时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;间:</string>
+    <string name="txt_cust_num">客户编号:</string>
+    <string name="txt_cust_name">客户名称:</string>
+    <string name="operater_type">类&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;型:</string>
+    <string name="sum_of_operater">金&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;额:</string>
+    <string name="btn_cancel">撤销</string>
+    <string name="user_name_incorr">用户名不正确!</string>
+    <string name="pwd_incorr">密码不正确!</string>
+    <string name="u_name_or_pwd_incorr">用户名或密码不正确!</string>
+    
+    
+    <!-- mep_hui_zong_item -->
+	<string name="mep_account">M&#160;&#160;&#160;&#160;E&#160;&#160;&#160;&#160;P:</string> 
+	<string name="sum_of_money">总交易金额:</string>
+	<string name="sum_of_count">总交易笔数:</string>
+	<string name="sum_of_che_xiao_money">总撤销金额:</string>
+	<string name="sum_of_che_xiao_count">总撤销笔数:</string>   
+	<string name="real_deal_money">实际交易金额:</string>
+    
+    
+    <!-- activity_configuration.xml -->
+    <string name="modi_pwd">修改密码</string>
+    <string name="help_txt">帮助</string>
+    <string name="term_num">终端号:</string>
+    <string name="comm_num">MEP编号:</string>
+
+    <!-- ConfigurationActivity -->
+    <string name="confi_name">配置</string>
+    <string name="confi_info">配置信息</string>
+
+    <!-- dialog_modify_pwd.xml -->
+    <string name="modi_pwd_hint1">请输入原始密码</string>
+    <string name="modi_pwd_hint2">请输入新密码</string>
+    <string name="modi_pwd_hint3">确认新密码</string>
+    <string name="title_modify_pwd">修改密码</string>
+    <string name="dia_btn_sure_txt">确定</string>
+    <string name="dia_btn_canc_txt">取消</string>
+    <string name="old_pwd_incorr">原始密码不正确</string>
+    <string name="old_pwd_not_null">原始密码不能为空!</string>
+    <string name="new_pwd_not_null">新密码不能为空!</string>
+    <string name="new_pwd_sure_not_null">确认新密码不能为空!</string>
+    <string name="pwd_not_the_same">两次输入的密码不一致</string>
+    <string name="modify_pwd_success">修改密码成功!</string>
+    <string name="login_success">登录成功!</string>
+    <string name="login_faield">登录失败!</string>
+    <string name="account_or_pwd_not_corr">用户名或密码不正确</string>
+    <string name="warnming_prompt">温馨提示!</string>
+    <string name="is_exit_app">确认退出该应用?</string>
+    <string name="consume_success">交易成功!</string>
+    <string name="consume_faield">交易失败!</string>
+    <string name="query_remain_faield">查询余额失败!</string>
+    <string name="card_not_exist_or_opend">该卡不存在或未开卡使用!</string>
+    <string name="get_syta_code">正在获取验证码，请稍候 &#8230;</string>
+     <string name="get_syta_code2">正在获取动态码，请稍候 &#8230;</string>
+    <string name="get_synt_code_succ">获取验证码成功!</string>
+     <string name="get_synt_code_succ2">获取动态码码成功!</string>
+    <string name="get_synt_code_faield">获取验证码失败,请重新获取!</string>
+    <string name="query_pwd">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码:</string>
+    <string name="handing_process">正在处理，请稍候 &#8230;</string>
+    
+    <string name="start_date">开始日期:</string>
+    <string name="select_start_date">请选择开始日期</string>
+    
+    <string name="start_time">开始时间:</string>
+    <string name="select_start_time">请选择开始时间</string>
+    
+    
+    <string name="end_date">结束日期:</string>
+    <string name="select_end_date">请选择结束日期</string>
+    
+    <string name="end_time">结束时间:</string>
+    <string name="select_end_time">请选择结束时间</string>
+    <string name="start_date_can_not_null">开始日期不能为空!</string>
+    <string name="start_time_can_not_null">开始时间不能为空!</string>
+    <string name="end_date_can_not_null">结束日期不能为空!</string>
+    <string name="end_time_can_not_null">结束时间不能为空!</string>
+    <string name="get_data_faield">获取信息失败!</string>
+    <string name="give_up">撤销</string>
+    <string name="deal_date">交易日期:</string>
+    <string name="deal_time">交易时间:</string>
+    <string name="deal_cust_num">客户编号:</string>
+    <string name="deal_cust_name">客户名称:</string>
+    <string name="item_card_num">卡&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号:</string>
+    <string name="yanzheng_code">验证码不能为空</string>
+    <string name="init_success">初始化成功!</string>
+    <string name="init_faield">初始化失败!</string>
+    <string name="consume_cancle_faield">撤销交易失败!</string>
+    <string name="account2">手机号:</string>
+    <string name="account3">账&#160;&#160;&#160;&#160;号:</string>
+    <string name="hint_account_edit2">请输入手机号 </string>
+    <string name="hint_account_edit3">请输入账号 </string>
+    <string name="passwd2">密&#160;&#160;&#160;&#160;码:</string>
+    <string name="cancle_success">撤销成功</string>
+    <string name="cancle_faield">撤销失败</string>
+    <string name="cust_info_tv_cust_num">客户编号:</string>
+    <string name="cust_info_yuer">余&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;额:</string>
+    <string name="cust_info_name">客户名称:</string>
+    <string name="cust_phone_num">手&#160;&#160;机&#160;&#160;号:</string>
+    <string name="btn_text_sure">确定</string>
+    <string name="cust_info_data_title">客户信息</string>
+    <string name="yuan">元</string>
+    <string name="bi">笔</string>
+    <string name="btn_txt_get_systax_code">获取动态码</string>
+    <string name="sure_to_cancle_the_consume">确定撤销该交易?</string>
+    <string name="syntax_code_not_null">动态码不能为空</string>
+    <string name="consume_money">交易金额:</string>
+    <string name="consume_cancle_money">交易撤销金额:</string>
+    <string name="modify_login_pwd_faield">修改密码失败!</string>
+    <string name="modify_login_pwd_success">修改密码成功!</string>
+    <string name="no_available_net_work">没有可用网络</string>
+    <string name="query_faield">查询失败</string>
+    <string name="dynamic_code_error">动态码不符</string>
+    <string name="end_time_can_not_small_than_start_time">结束时间不能小于开始时间</string>
+
+    <!-- xlist text -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <string name="no_more_data">没有更多数据</string>
+
+    
+    <string name="pwd_alarm1">密码长度不能小于6位</string>
+    <string name="pwd_alarm5">密码长度不能大于8位</string>
+    <string name="pwd_alarm2">密码中不能有汉字</string>
+    <string name="pwd_alarm3">密码必须由字母、数字和特殊字符中的至少2种组成</string>
+    <string name="pwd_alarm4">两次输入密码不一致</string>
+    <string name="please_login_again">请重新登录</string>
+    
+    <string name="app_menu_surelogout">确定退出程序吗？</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    
+    <string name="app_error">应用程序错误</string>
+    <string name="app_error_message">很抱歉，应用程序出现错误，即将退出。\n请提交错误报告，我们会尽快修复这个问题！</string>
+    <string name="submit_report">提交报告</string>
+    
+    <string name="switch_our_ip">切换安捷睿达环境</string>
+    <string name="switch_coco_ip">切换可口可乐环境</string>
+</resources>

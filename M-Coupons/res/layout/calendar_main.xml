@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/title_bg" >
+
+        <Button
+            android:id="@+id/today_btn"
+            android:layout_width="65.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/login_btn_selector"
+            android:text="今天"
+            android:textColor="@color/white"
+            android:textSize="18.0sp"
+             >
+        </Button>
+
+        <TextView
+            android:id="@+id/today_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="日历"
+            android:textColor="@color/white"
+            android:textSize="20sp" 
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="65.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/login_btn_selector"
+            android:text="确定" 
+            android:textColor="@color/white"
+            android:textSize="18.0sp"
+            >
+        </Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/message_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_layout" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/week_bg" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_selector"
+            android:paddingTop="7dip" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/day_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="7dip"
+            android:text="2012年11月13号"
+            android:textSize="18dip" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/right_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/right_selector"
+            android:paddingTop="7dip" >
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/calendar_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_layout" >
+    </RelativeLayout>
+
+</RelativeLayout>
